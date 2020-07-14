@@ -1,0 +1,11 @@
+.App {
+  padding        : 20px;
+  display        : flex;
+  justify-content: center;
+}
+
+.warp {
+  width           : 80%;
+  height          : 500px;
+  background-color: bisque;
+}
