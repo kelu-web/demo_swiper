@@ -75,12 +75,12 @@ const getSwipeWay = (U) => (x1, x2, y1, y2) => {
 
 }
 
-touchStart = (e) => {
+const touchStart = (e) => {
     const { clientX, clientY } = e.touches[0];
     this.position.x1 = clientX;
     this.position.y1 = clientY;
 }
-touchEnd = (e) => {
+const touchEnd = (e) => {
     const { clientX, clientY } = e.changedTouches[0];
     this.position.x2 = clientX;
     this.position.y2 = clientY;
