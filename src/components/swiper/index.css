@@ -1,0 +1,76 @@
+.swiper {
+    width   : 100%;
+    height  : 100%;
+    padding : 100px 0;
+    display : flex;
+    overflow: hidden;
+    position: relative;
+
+}
+
+ul {
+    margin     : 0;
+    padding    : 0;
+    list-style : none;
+    display    : flex;
+    height     : 200px;
+    align-items: center;
+    position   : relative;
+
+}
+
+.img_nomol {
+    width        : 200px;
+    opacity      : .5;
+    border-radius: 5px;
+}
+
+.img_active {
+    width        : 200px;
+    margin       : 0 5px;
+    margin       : 0 75px;
+    transform    : scale(1.5);
+    border-radius: 5px;
+}
+
+.btn {
+    width           : 80px;
+    height          : 40px;
+    position        : absolute;
+    top             : 400px;
+    background-color: chartreuse;
+    text-align      : center;
+    line-height     : 40px;
+    border-radius   : 10px;
+    cursor          : pointer;
+}
+
+.pagenation {
+    position : absolute;
+    top      : 360px;
+    left     : 50%;
+    display  : flex;
+    transform: translateX(-50%);
+}
+
+.item {
+    width           : 10px;
+    height          : 10px;
+    border-radius   : 50%;
+    border          : 1px solid blue;
+    background-color: blue;
+    margin-right    : 10px;
+}
+
+.item_active {
+    background-color: white;
+}
+
+.left {
+    left: 100px;
+
+}
+
+.right {
+    right: 100px;
+}
